@@ -1,0 +1,211 @@
+[
+  {
+    "KPI_ID":"K01",
+    "KPI_Name":"% Students Meeting Arabic Language Expectations",
+    "Description":"% of students meeting expected levels of Arabic Language (pilot cohort)",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":40,
+    "Warning_Amber":null,
+    "Actual_Result":18.0,
+    "Status (Formula)":"Amber"
+  },
+  {
+    "KPI_ID":"K02",
+    "KPI_Name":"% UAE National Children Under 4 in Early Education",
+    "Description":"% of UAE national children under the age of 4 enrolled in early education with at least 40 days attendance in a year",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":28,
+    "Warning_Amber":null,
+    "Actual_Result":24.0,
+    "Status (Formula)":"Green"
+  },
+  {
+    "KPI_ID":"K03",
+    "KPI_Name":"% Increase in Sports Participation",
+    "Description":"% increase in students participating in priority sports through league-format competitions",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":25,
+    "Warning_Amber":null,
+    "Actual_Result":18.0,
+    "Status (Formula)":"Amber"
+  },
+  {
+    "KPI_ID":"K04",
+    "KPI_Name":"% Students Physically Active",
+    "Description":"% of students who are physically active",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":100,
+    "Warning_Amber":null,
+    "Actual_Result":18.0,
+    "Status (Formula)":"Amber"
+  },
+  {
+    "KPI_ID":"K05",
+    "KPI_Name":"% Emirati Students Experiencing Weekly Bullying",
+    "Description":"% of Emirati students who experience bullying on a weekly basis (private & charter schools)",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":10,
+    "Warning_Amber":null,
+    "Actual_Result":12.0,
+    "Status (Formula)":"Red"
+  },
+  {
+    "KPI_ID":"K06",
+    "KPI_Name":"% Emirati Students with Chronic Absenteeism",
+    "Description":"% of Emirati students with chronic absenteeism (private & charter schools)",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":16,
+    "Warning_Amber":null,
+    "Actual_Result":12.0,
+    "Status (Formula)":"Red"
+  },
+  {
+    "KPI_ID":"K07",
+    "KPI_Name":"% SOD Meeting Expected Progress Targets",
+    "Description":"% of Students of Determination meeting expected progress targets",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":60,
+    "Warning_Amber":null,
+    "Actual_Result":24.0,
+    "Status (Formula)":"Green"
+  },
+  {
+    "KPI_ID":"K08",
+    "KPI_Name":"% Children in Al Ghad Nurseries Making Progress in ASQ3",
+    "Description":"% of children in Al Ghad nurseries making progress in ASQ3",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":66,
+    "Warning_Amber":null,
+    "Actual_Result":24.0,
+    "Status (Formula)":"Green"
+  },
+  {
+    "KPI_ID":"K09",
+    "KPI_Name":"% Grade 3 Emirati Students Meeting Literacy Expectations",
+    "Description":"% of grade 3 Emirati students meeting grade level expectations (English and Reading)",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":40,
+    "Warning_Amber":null,
+    "Actual_Result":18.0,
+    "Status (Formula)":"Amber"
+  },
+  {
+    "KPI_ID":"K10",
+    "KPI_Name":"% Grade 3\/7\/9 Students Meeting Math & Science Expectations",
+    "Description":"% of grade 3, 7, 9 Emirati students meeting grade level expectations (Math and Science)",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":47,
+    "Warning_Amber":null,
+    "Actual_Result":18.0,
+    "Status (Formula)":"Amber"
+  },
+  {
+    "KPI_ID":"K11",
+    "KPI_Name":"% Pilot Cohort Students Demonstrating Competency Progress",
+    "Description":"% of students in pilot cohort schools demonstrating progress in at least one of three competencies",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":80,
+    "Warning_Amber":null,
+    "Actual_Result":18.0,
+    "Status (Formula)":"Amber"
+  },
+  {
+    "KPI_ID":"K12",
+    "KPI_Name":"# Emirati Students Identified as High Potential Talent",
+    "Description":"Number of Emirati students identified as high potential talent in each stream",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":100,
+    "Warning_Amber":null,
+    "Actual_Result":null,
+    "Status (Formula)":"Green"
+  },
+  {
+    "KPI_ID":"K13",
+    "KPI_Name":"% High Potential Students Routed into Pathways",
+    "Description":"% of identified high potential students routed into development pathways",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":15,
+    "Warning_Amber":null,
+    "Actual_Result":null,
+    "Status (Formula)":"Amber"
+  },
+  {
+    "KPI_ID":"K14",
+    "KPI_Name":"% HEI Programs Reviewed for Industry Alignment",
+    "Description":"% of HEI programs reviewed for industry alignment and relevance",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":20,
+    "Warning_Amber":null,
+    "Actual_Result":24.0,
+    "Status (Formula)":"Green"
+  },
+  {
+    "KPI_ID":"K15",
+    "KPI_Name":"% Teachers Profiled Against NEPF",
+    "Description":"% of teachers in pilot cohort profiled against the National Education Proficiency Framework",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":100,
+    "Warning_Amber":null,
+    "Actual_Result":18.0,
+    "Status (Formula)":"Amber"
+  },
+  {
+    "KPI_ID":"K16",
+    "KPI_Name":"% New Teachers Completing Unified Onboarding",
+    "Description":"% of newly appointed teachers completing unified onboarding",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":100,
+    "Warning_Amber":null,
+    "Actual_Result":18.0,
+    "Status (Formula)":"Amber"
+  },
+  {
+    "KPI_ID":"K17",
+    "KPI_Name":"% Emirati School Staff in Private Schools",
+    "Description":"% Emirati school staff in private schools",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":7,
+    "Warning_Amber":null,
+    "Actual_Result":24.0,
+    "Status (Formula)":"Green"
+  },
+  {
+    "KPI_ID":"K18",
+    "KPI_Name":"# Affordable Schools",
+    "Description":"Number of affordable schools",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":3,
+    "Warning_Amber":null,
+    "Actual_Result":null,
+    "Status (Formula)":"Amber"
+  },
+  {
+    "KPI_ID":"K19",
+    "KPI_Name":"# Leading Schools Attracted to Abu Dhabi",
+    "Description":"Number of leading schools attracted to Abu Dhabi",
+    "Owner":null,
+    "Target_Type":"Year",
+    "Target_Value":1,
+    "Warning_Amber":null,
+    "Actual_Result":null,
+    "Status (Formula)":"Amber"
+  }
+]
