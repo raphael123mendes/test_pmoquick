@@ -1,0 +1,72 @@
+[
+  {
+    "Risk_ID":"R-001",
+    "Title":"Workstream Alignment – Values & Identity",
+    "Description":"Multiple workstreams must be aligned across curriculum, Arabic pedagogy, values integration, and implementation oversight.",
+    "Mitigation":"Sequence the programme into phased delivery tracks with clear owners, milestones, and decision points. Issue implementation guidance early and monitor readiness through structured check-ins with schools.",
+    "Impacted_KPIs":"K01, K02",
+    "Impacted_Inits":"INT-01",
+    "Severity (1-25)":12,
+    "Status":"Active Issue"
+  },
+  {
+    "Risk_ID":"R-002",
+    "Title":"League Scheduling & Facility Coordination",
+    "Description":"League-format delivery requires strong scheduling, facility access, and coordination across participating schools.",
+    "Mitigation":"Lock the competition calendar and district approach early. Track uptake by sport and intervene quickly where participation or operational readiness is weaker than expected.",
+    "Impacted_KPIs":"K03",
+    "Impacted_Inits":"INT-02",
+    "Severity (1-25)":9,
+    "Status":"Potential Risk"
+  },
+  {
+    "Risk_ID":"R-003",
+    "Title":"Chronic Absenteeism – Multi-driver Complexity",
+    "Description":"Chronic absenteeism is influenced by multiple drivers including student risk factors, family engagement, and inconsistent school follow-up.",
+    "Mitigation":"Use integrated attendance data to flag priority students and schools early. Strengthen parent engagement, policy enforcement, and recognition mechanisms.",
+    "Impacted_KPIs":"K06",
+    "Impacted_Inits":"INT-02",
+    "Severity (1-25)":16,
+    "Status":"Active Issue"
+  },
+  {
+    "Risk_ID":"R-004",
+    "Title":"AI in Schools – Undefined Timeline & Readiness",
+    "Description":"Core delivery elements including implementation timing and enabling conditions still require confirmation.",
+    "Mitigation":"Confirm the phased 2026 scope, delivery pathway, and ownership model before full rollout. Start with a focused AI fluency track.",
+    "Impacted_KPIs":"K11",
+    "Impacted_Inits":"INT-03",
+    "Severity (1-25)":12,
+    "Status":"Potential Risk"
+  },
+  {
+    "Risk_ID":"R-005",
+    "Title":"Teacher Quality – Interdependent Reform Complexity",
+    "Description":"The teacher transformation programme combines several interdependent reforms. Critical design elements and sequencing still need to be locked.",
+    "Mitigation":"Prioritise foundational components first: proficiency framework, profiling model, and onboarding approach. Use a sequenced roadmap with named owners and pilot milestones.",
+    "Impacted_KPIs":"K15, K16",
+    "Impacted_Inits":"INT-04",
+    "Severity (1-25)":16,
+    "Status":"Active Issue"
+  },
+  {
+    "Risk_ID":"R-006",
+    "Title":"Affordable School Model – Market Feasibility",
+    "Description":"Expanding affordable provision requires the right regulatory model, investor interest, and viable operating conditions.",
+    "Mitigation":"Finalise the policy and investment model early. Engage potential operators in parallel to test feasibility before full rollout.",
+    "Impacted_KPIs":"K18",
+    "Impacted_Inits":"INT-04",
+    "Severity (1-25)":9,
+    "Status":"Potential Risk"
+  },
+  {
+    "Risk_ID":"R-007",
+    "Title":"Leading Schools Attraction – Competitive Market",
+    "Description":"Attraction depends on a competitive value proposition, licensing clarity, and a smooth journey from investor interest to operations.",
+    "Mitigation":"Coordinate a streamlined licensing-to-operations pathway. Target selected operators through a focused engagement plan backed by a clear investment proposition.",
+    "Impacted_KPIs":"K19",
+    "Impacted_Inits":"INT-04",
+    "Severity (1-25)":9,
+    "Status":"Potential Risk"
+  }
+]
