@@ -1,0 +1,90 @@
+/* ── TAILWIND CONFIG ────────────────────────────────────────────── */
+/* Injected via index.html script tag — see tailwind.config in app.js */
+
+/* ── BASE ───────────────────────────────────────────────────────── */
+body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5, .font-headline { font-family: 'Manrope', sans-serif; }
+
+/* ── PAGES ──────────────────────────────────────────────────────── */
+.page { display: none; }
+.page.active { display: block; }
+
+/* ── NAV ────────────────────────────────────────────────────────── */
+.nav-dot {
+  display: none;
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px; height: 4px;
+  background: #1342ff;
+  border-radius: 9999px;
+}
+.nav-item.active { color: #1342ff !important; }
+.nav-item.active .nav-dot { display: block; }
+.bottom-nav-item.active { color: #1342ff !important; opacity: 1 !important; }
+
+/* ── CARDS ──────────────────────────────────────────────────────── */
+.hover-card {
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.hover-card:hover {
+  box-shadow: 0 8px 32px rgba(44, 52, 55, 0.08);
+  transform: translateY(-2px);
+}
+
+/* ── STATUS BADGES ──────────────────────────────────────────────── */
+.status-on-track       { background: #dcfce7; color: #166534; }
+.status-needs-attention{ background: #fef9c3; color: #92400e; }
+.status-off-track      { background: #fee2e2; color: #991b1b; }
+.status-done           { background: #dbeafe; color: #1e40af; }
+.status-in-progress    { background: #e0f2fe; color: #0369a1; }
+.status-planned        { background: #f1f5f9; color: #475569; }
+.status-blocked        { background: #fee2e2; color: #991b1b; }
+.health-green          { background: #dcfce7; color: #166534; }
+.health-amber          { background: #fef9c3; color: #92400e; }
+.health-red            { background: #fee2e2; color: #991b1b; }
+
+/* ── MILESTONE TIMELINE ─────────────────────────────────────────── */
+.milestone-line {
+  position: absolute;
+  left: 11px; top: 8px; bottom: 8px;
+  width: 1px;
+  background: #eaeef1;
+}
+
+/* ── ANIMATIONS ─────────────────────────────────────────────────── */
+@keyframes spin { to { transform: rotate(360deg); } }
+.spin { animation: spin 3s linear infinite; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+.fade-in { animation: fadeIn 0.3s ease forwards; }
+.animate-spin { animation: spin 0.8s linear infinite; }
+
+/* ── TAILWIND CUSTOM TOKENS (referenced in JS templates) ────────── */
+/* These mirror the tailwind.config defined in app.js              */
+:root {
+  --primary:                  #1342ff;
+  --on-primary:               #f9f6ff;
+  --primary-dim:              #0036e9;
+  --primary-container:        #dee0ff;
+  --on-primary-container:     #0035e7;
+  --secondary:                #5d5f63;
+  --secondary-container:      #e1e2e6;
+  --secondary-fixed-dim:      #d3d4d8;
+  --tertiary-fixed:           #f9f2ef;
+  --tertiary-fixed-dim:       #ebe4e1;
+  --tertiary-container:       #f9f2ef;
+  --on-tertiary-fixed-variant:#6a6563;
+  --surface:                  #f9f9fa;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low:    #f1f4f5;
+  --surface-container:        #eaeef1;
+  --surface-container-high:   #e3e9ec;
+  --on-background:            #2c3437;
+  --on-surface:               #2c3437;
+  --on-surface-variant:       #586063;
+  --outline-variant:          #abb3b7;
+  --error:                    #9e3f4e;
+  --error-container:          #ff8b9a;
+  --on-error-container:       #782232;
+}
